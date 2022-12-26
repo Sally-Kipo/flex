@@ -2,20 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
 }
 .back{
     position: relative;
     display: flex;
+    width: 50%;
 }
 
 .rightside{
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    width: 50%;
     align-items: center;
     bottom: 32px;
-    position: absolute;
     border-radius: 32px;
+    
     
 }
 .logo{
@@ -45,10 +54,9 @@ input{
 }
 .check{
     margin-top: 50px;
-    text-align: center;
+    
 }
 .icons{
-    position: absolute;
     display: flex;
     justify-content: space-between;
 }
